@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#0b0b0b;
+}
+.hero{
+    background-image: url(R.jpg);
+    height: 380px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+.hero nav ul {
+text-align: left;
+}
+.hero nav li{
+display: inline-block;
+list-style-type: none;
+
+}
+.hero nav a{
+background-color: rgba(255, 255, 255, 0.008);
+padding: 345px;
+padding-left: 1300px;
+display: auto;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+
+
+font-size: 12px;
+letter-spacing: 2px;
+}
+.hero nav a:hover{
+background-color: rgba(0,0,0,.5);
+}
+main{
+    width: 80%;
+    margin: auto;
+    min-width: 400px;
+    max-width: 860px;
+}
+h2{
+       margin-top: 250px;
+        text-align: center;
+        height: 600px;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+}
+#meu-submit{
+    display: block;
+  margin-left: 380px;
+  margin-top: 50px;
+}
+footer{
+    color: rgb(249, 249, 249);
+    text-align:left;
+    background-color:rgb(8, 7, 7);
+    height: 125px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
